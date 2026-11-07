@@ -20,3 +20,11 @@ Native .fzz opening and 'Routing completed' were observed in Fritzing.
 Connectivity checks are separate from physical or firmware simulation tests.
 The PNG/SVG are annotated same-coordinate renders, not screenshots of building.
 Real Fritzing construction clips remain to be recorded independently.
+
+
+The Water-Tank-Controller-Labeled files adapt the same drawing with native
+functional and pin labels. The labeled SVG is exported by Fritzing 1.0.3b; its
+PNG renders that SVG. The editable bundle retains the original core/custom
+artwork and electrical connections. These derived drawings use the same
+CC BY-SA 3.0 license and attribution above. No video, music or vendor software
+is included in this drawing update.

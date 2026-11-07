@@ -102,3 +102,19 @@ Wiring graphics use Fritzing core artwork plus an original illustrative LCD;
 see [ATTRIBUTION.md](ATTRIBUTION.md) for **CC BY-SA 3.0** terms.
 No third-party software or library license is granted by this repository.
 No additional software license has been assigned to the native/generated source.
+
+
+## Labeled wiring drawing
+
+Use the [editable labeled Fritzing project](Water-Tank-Controller-Labeled.fzz),
+[SVG](Water-Tank-Controller-Labeled.svg), or [PNG](Water-Tank-Controller-Labeled.png)
+for a version with readable component functions and Uno pin numbers.
+
+![Labeled connection guide](Water-Tank-Controller-Labeled.png)
+
+This revision adds seven native labels to the original circuit. Part positions,
+wire geometry and electrical connections are unchanged. Native Fritzing opening
+showed **Routing completed**; static checks cover **12 nets and 67 wire segments**.
+The potentiometer simulates tank level; LEDs indicate pump/alarm commands.
+The SVG is exported directly by Fritzing 1.0.3b and the PNG renders that SVG.
+Original drawing files remain available. No PCB design or physical test is claimed.
