@@ -92,7 +92,7 @@ not a separate model that merely imitates the expected result.
 - [Video walkthrough](https://www.youtube.com/watch?v=VGi7qFAkXQc)
 - Instructables: step-by-step article is being prepared; its public URL will be
   added after publication.
-- Homepage project page: public URL will be added after publication.
+- [Homepage project page](https://finnandre.no/ressurser/visuino-ai-vannkontroller/)
 
 ## Credits and rights
 
