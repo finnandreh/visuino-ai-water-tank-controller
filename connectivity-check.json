@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Native saved connectivity and board buses only; not hardware or firmware runtime",
+  "net_count": 12,
+  "wire_segments": 67,
+  "reciprocal_links": true,
+  "firmware_signal_pins": true,
+  "no_VCC_GND_short": true
+}

@@ -1,0 +1,1839 @@
+{
+  "Config": {
+    "Build": {
+      "Board": "arduino:avr:uno"
+    }
+  },
+  "Units": [
+    {
+      "Name": "__OpenWireRootUnit__",
+      "Selection": [
+        "LevelRowText"
+      ],
+      "Links": [
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item14.OutputPin",
+            "Y": 1024,
+            "X": 464
+          },
+          "Name": "TOWELink1",
+          "End": {
+            "ID": "TankLevelPercent.InputPin",
+            "Y": 336,
+            "X": 576
+          },
+          "Points": [
+            {
+              "Y": 1024,
+              "X": 544
+            },
+            {
+              "Y": 336,
+              "X": 544
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item2.OutputPin",
+            "Y": 544,
+            "X": 464
+          },
+          "Name": "TOWELink2",
+          "End": {
+            "ID": "AutoSwitch.InputPin",
+            "Y": 576,
+            "X": 576
+          },
+          "Points": [
+            {
+              "Y": 544,
+              "X": 528
+            },
+            {
+              "Y": 576,
+              "X": 528
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ManualActiveLow.OutputPin",
+            "Y": 720,
+            "X": 704
+          },
+          "Name": "TOWELink3",
+          "End": {
+            "ID": "ManualButton.InputPin",
+            "Y": 720,
+            "X": 768
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item3.OutputPin",
+            "Y": 576,
+            "X": 464
+          },
+          "Name": "TOWELink5",
+          "End": {
+            "ID": "ManualActiveLow.InputPin",
+            "Y": 720,
+            "X": 576
+          },
+          "Points": [
+            {
+              "Y": 576,
+              "X": 512
+            },
+            {
+              "Y": 720,
+              "X": 512
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "SourceEmptyActiveLow.OutputPin",
+            "Y": 992,
+            "X": 736
+          },
+          "Name": "TOWELink4",
+          "End": {
+            "ID": "SourceEmptySwitch.InputPin",
+            "Y": 992,
+            "X": 768
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "Arduino.Digital._Item4.OutputPin",
+            "Y": 624,
+            "X": 464
+          },
+          "Name": "TOWELink6",
+          "End": {
+            "ID": "SourceEmptyActiveLow.InputPin",
+            "Y": 992,
+            "X": 576
+          },
+          "Points": [
+            {
+              "Y": 624,
+              "X": 496
+            },
+            {
+              "Y": 736,
+              "X": 496
+            },
+            {
+              "Y": 736,
+              "X": 528
+            },
+            {
+              "Y": 992,
+              "X": 528
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankLevelPercent.OutputPin",
+            "Y": 336,
+            "X": 704
+          },
+          "Name": "TOWELink7",
+          "End": {
+            "ID": "TankAtOrBelow25.InputPin",
+            "Y": 336,
+            "X": 944
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankLevelPercent.OutputPin",
+            "Y": 336,
+            "X": 704
+          },
+          "Name": "TOWELink8",
+          "End": {
+            "ID": "TankAtOrAbove80.InputPin",
+            "Y": 432,
+            "X": 912
+          },
+          "Points": [
+            {
+              "Y": 336,
+              "X": 784
+            },
+            {
+              "Y": 432,
+              "X": 784
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankAtOrBelow25.OutputPin",
+            "Y": 336,
+            "X": 1072
+          },
+          "Name": "TOWELink9",
+          "End": {
+            "ID": "AutoFillRequest.SetInputPin",
+            "Y": 368,
+            "X": 1136
+          },
+          "Points": [
+            {
+              "Y": 336,
+              "X": 1104
+            },
+            {
+              "Y": 368,
+              "X": 1104
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankAtOrAbove80.OutputPin",
+            "Y": 432,
+            "X": 1040
+          },
+          "Name": "TOWELink10",
+          "End": {
+            "ID": "AutoFillRequest.ResetInputPin",
+            "Y": 384,
+            "X": 1136
+          },
+          "Points": [
+            {
+              "Y": 432,
+              "X": 1088
+            },
+            {
+              "Y": 384,
+              "X": 1088
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AutoFillRequest.OutputPin",
+            "Y": 368,
+            "X": 1264
+          },
+          "Name": "TOWELink11",
+          "End": {
+            "ID": "FillDemand.InputPins._Pin1",
+            "Y": 496,
+            "X": 1360
+          },
+          "Points": [
+            {
+              "Y": 368,
+              "X": 1280
+            },
+            {
+              "Y": 496,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ManualButton.OutputPin",
+            "Y": 720,
+            "X": 880
+          },
+          "Name": "TOWELink12",
+          "End": {
+            "ID": "FillDemand.InputPins._Pin0",
+            "Y": 480,
+            "X": 1360
+          },
+          "Points": [
+            {
+              "Y": 720,
+              "X": 1136
+            },
+            {
+              "Y": 592,
+              "X": 1136
+            },
+            {
+              "Y": 592,
+              "X": 1152
+            },
+            {
+              "Y": 480,
+              "X": 1152
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AutoSwitch.OutputPin",
+            "Y": 576,
+            "X": 672
+          },
+          "Name": "TOWELink13",
+          "End": {
+            "ID": "FillModeIndex.InputPin",
+            "Y": 576,
+            "X": 944
+          }
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "FillModeIndex.OutputPin",
+            "Y": 576,
+            "X": 1056
+          },
+          "Name": "TOWELink14",
+          "End": {
+            "ID": "FillDemand.SelectInputPin",
+            "Y": 512,
+            "X": 1360
+          },
+          "Points": [
+            {
+              "Y": 576,
+              "X": 1136
+            },
+            {
+              "Y": 512,
+              "X": 1136
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "SourceEmptySwitch.OutputPin",
+            "Y": 992,
+            "X": 912
+          },
+          "Name": "TOWELink15",
+          "End": {
+            "ID": "SourceWaterOK.InputPin",
+            "Y": 752,
+            "X": 1152
+          },
+          "Points": [
+            {
+              "Y": 992,
+              "X": 992
+            },
+            {
+              "Y": 752,
+              "X": 992
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankLevelPercent.OutputPin",
+            "Y": 336,
+            "X": 704
+          },
+          "Name": "TOWELink16",
+          "End": {
+            "ID": "TankBelow95.InputPin",
+            "Y": 848,
+            "X": 1152
+          },
+          "Points": [
+            {
+              "Y": 336,
+              "X": 784
+            },
+            {
+              "Y": 608,
+              "X": 784
+            },
+            {
+              "Y": 608,
+              "X": 960
+            },
+            {
+              "Y": 848,
+              "X": 960
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "PumpRun.OutputPin",
+            "Y": 816,
+            "X": 1696
+          },
+          "Name": "TOWELink17",
+          "End": {
+            "ID": "Arduino.Digital._Item8.DigitalInputPin",
+            "Y": 784,
+            "X": 256
+          },
+          "Points": [
+            {
+              "Y": 816,
+              "X": 1712
+            },
+            {
+              "Y": 176,
+              "X": 1712
+            },
+            {
+              "Y": 176,
+              "X": 176
+            },
+            {
+              "Y": 784,
+              "X": 176
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "FillDemand.OutputPin",
+            "Y": 464,
+            "X": 1472
+          },
+          "Name": "TOWELink18",
+          "End": {
+            "ID": "PumpRun.InputPins._Pin0",
+            "Y": 832,
+            "X": 1584
+          },
+          "Points": [
+            {
+              "Y": 464,
+              "X": 1504
+            },
+            {
+              "Y": 832,
+              "X": 1504
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "SourceWaterOK.OutputPin",
+            "Y": 752,
+            "X": 1264
+          },
+          "Name": "TOWELink19",
+          "End": {
+            "ID": "PumpRun.InputPins._Pin1",
+            "Y": 848,
+            "X": 1584
+          },
+          "Points": [
+            {
+              "Y": 752,
+              "X": 1344
+            },
+            {
+              "Y": 848,
+              "X": 1344
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankBelow95.OutputPin",
+            "Y": 848,
+            "X": 1264
+          },
+          "Name": "TOWELink20",
+          "End": {
+            "ID": "PumpRun.InputPins._Pin2",
+            "Y": 864,
+            "X": 1584
+          },
+          "Points": [
+            {
+              "Y": 848,
+              "X": 1280
+            },
+            {
+              "Y": 864,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AlarmOn.OutputPin",
+            "Y": 1120,
+            "X": 1696
+          },
+          "Name": "TOWELink21",
+          "End": {
+            "ID": "Arduino.Digital._Item9.DigitalInputPin",
+            "Y": 816,
+            "X": 256
+          },
+          "Points": [
+            {
+              "Y": 1120,
+              "X": 1712
+            },
+            {
+              "Y": 1424,
+              "X": 1712
+            },
+            {
+              "Y": 1424,
+              "X": 176
+            },
+            {
+              "Y": 816,
+              "X": 176
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankLevelPercent.OutputPin",
+            "Y": 336,
+            "X": 704
+          },
+          "Name": "TOWELink22",
+          "End": {
+            "ID": "TankAtOrAbove95.InputPin",
+            "Y": 976,
+            "X": 1152
+          },
+          "Points": [
+            {
+              "Y": 336,
+              "X": 784
+            },
+            {
+              "Y": 608,
+              "X": 784
+            },
+            {
+              "Y": 608,
+              "X": 960
+            },
+            {
+              "Y": 848,
+              "X": 960
+            },
+            {
+              "Y": 848,
+              "X": 1072
+            },
+            {
+              "Y": 976,
+              "X": 1072
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "SourceEmptySwitch.OutputPin",
+            "Y": 992,
+            "X": 912
+          },
+          "Name": "TOWELink23",
+          "End": {
+            "ID": "AlarmOn.InputPins._Pin0",
+            "Y": 1136,
+            "X": 1584
+          },
+          "Points": [
+            {
+              "Y": 992,
+              "X": 1072
+            },
+            {
+              "Y": 1136,
+              "X": 1072
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankAtOrAbove95.OutputPin",
+            "Y": 976,
+            "X": 1280
+          },
+          "Name": "TOWELink24",
+          "End": {
+            "ID": "AlarmOn.InputPins._Pin1",
+            "Y": 1152,
+            "X": 1584
+          },
+          "Points": [
+            {
+              "Y": 976,
+              "X": 1360
+            },
+            {
+              "Y": 1152,
+              "X": 1360
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankDisplay.OutputPin",
+            "Y": 720,
+            "X": 2272
+          },
+          "Name": "TOWELink25",
+          "End": {
+            "ID": "Arduino.I2CChannels._Item0.InputPin",
+            "Y": 400,
+            "X": 256
+          },
+          "Points": [
+            {
+              "Y": 720,
+              "X": 2288
+            },
+            {
+              "Y": 160,
+              "X": 2288
+            },
+            {
+              "Y": 160,
+              "X": 160
+            },
+            {
+              "Y": 400,
+              "X": 160
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "TankLevelPercent.OutputPin",
+            "Y": 336,
+            "X": 704
+          },
+          "Name": "TOWELink26",
+          "End": {
+            "ID": "LevelRowText.Elements._Item0.InputPin",
+            "Y": 560,
+            "X": 1808
+          },
+          "Points": [
+            {
+              "Y": 336,
+              "X": 928
+            },
+            {
+              "Y": 224,
+              "X": 928
+            },
+            {
+              "Y": 224,
+              "X": 1552
+            },
+            {
+              "Y": 560,
+              "X": 1552
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "LevelRowText.OutputPin",
+            "Y": 528,
+            "X": 1968
+          },
+          "Name": "TOWELink27",
+          "End": {
+            "ID": "TankDisplay.Elements._Item0.InputPin",
+            "Y": 768,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 528,
+              "X": 2048
+            },
+            {
+              "Y": 768,
+              "X": 2048
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AutoSwitch.OutputPin",
+            "Y": 576,
+            "X": 672
+          },
+          "Name": "TOWELink28",
+          "End": {
+            "ID": "ModeRowText.InputPin",
+            "Y": 720,
+            "X": 1856
+          },
+          "Points": [
+            {
+              "Y": 576,
+              "X": 928
+            },
+            {
+              "Y": 640,
+              "X": 928
+            },
+            {
+              "Y": 640,
+              "X": 1280
+            },
+            {
+              "Y": 720,
+              "X": 1280
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "PumpRun.OutputPin",
+            "Y": 816,
+            "X": 1696
+          },
+          "Name": "TOWELink29",
+          "End": {
+            "ID": "PumpRowText.InputPin",
+            "Y": 880,
+            "X": 1856
+          },
+          "Points": [
+            {
+              "Y": 816,
+              "X": 1776
+            },
+            {
+              "Y": 880,
+              "X": 1776
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "ModeRowText.OutputPin",
+            "Y": 720,
+            "X": 1968
+          },
+          "Name": "TOWELink30",
+          "End": {
+            "ID": "TankDisplay.Elements._Item1.InputPin",
+            "Y": 816,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 720,
+              "X": 1984
+            },
+            {
+              "Y": 816,
+              "X": 1984
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "PumpRowText.OutputPin",
+            "Y": 880,
+            "X": 1968
+          },
+          "Name": "TOWELink31",
+          "End": {
+            "ID": "TankDisplay.Elements._Item2.InputPin",
+            "Y": 864,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 880,
+              "X": 1984
+            },
+            {
+              "Y": 864,
+              "X": 1984
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AlarmOn.OutputPin",
+            "Y": 1120,
+            "X": 1696
+          },
+          "Name": "TOWELink32",
+          "End": {
+            "ID": "AlarmRowText.InputPin",
+            "Y": 1040,
+            "X": 1856
+          },
+          "Points": [
+            {
+              "Y": 1120,
+              "X": 1776
+            },
+            {
+              "Y": 1040,
+              "X": 1776
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "AlarmRowText.OutputPin",
+            "Y": 1040,
+            "X": 1968
+          },
+          "Name": "TOWELink33",
+          "End": {
+            "ID": "TankDisplay.Elements._Item3.InputPin",
+            "Y": 912,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 1040,
+              "X": 2048
+            },
+            {
+              "Y": 912,
+              "X": 2048
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DisplayRefresh.OutputPin",
+            "Y": 1200,
+            "X": 1968
+          },
+          "Name": "TOWELink34",
+          "End": {
+            "ID": "TankDisplay.Elements._Item0.ClockInputPin",
+            "Y": 752,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 1200,
+              "X": 2064
+            },
+            {
+              "Y": 752,
+              "X": 2064
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DisplayRefresh.OutputPin",
+            "Y": 1200,
+            "X": 1968
+          },
+          "Name": "TOWELink35",
+          "End": {
+            "ID": "TankDisplay.Elements._Item1.ClockInputPin",
+            "Y": 800,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 1200,
+              "X": 2064
+            },
+            {
+              "Y": 800,
+              "X": 2064
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DisplayRefresh.OutputPin",
+            "Y": 1200,
+            "X": 1968
+          },
+          "Name": "TOWELink36",
+          "End": {
+            "ID": "TankDisplay.Elements._Item2.ClockInputPin",
+            "Y": 848,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 1200,
+              "X": 2064
+            },
+            {
+              "Y": 848,
+              "X": 2064
+            }
+          ]
+        },
+        {
+          "Routed": true,
+          "Begin": {
+            "ID": "DisplayRefresh.OutputPin",
+            "Y": 1200,
+            "X": 1968
+          },
+          "Name": "TOWELink37",
+          "End": {
+            "ID": "TankDisplay.Elements._Item3.ClockInputPin",
+            "Y": 896,
+            "X": 2144
+          },
+          "Points": [
+            {
+              "Y": 1200,
+              "X": 2064
+            },
+            {
+              "Y": 896,
+              "X": 2064
+            }
+          ]
+        }
+      ],
+      "*": [
+        {
+          "Name": "Arduino",
+          "Width": 208,
+          "Instance": {
+            "Digital": {
+              "*": [
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSerial0Channel"
+                },
+                {
+                  "IsPullUp": true,
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.AutoSwitch.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoAdditionalDigitalInterruptChannel"
+                },
+                {
+                  "IsPullUp": true,
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.ManualActiveLow.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoBasicDigitalPWMInterruptChannel"
+                },
+                {
+                  "IsPullUp": true,
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.SourceEmptyActiveLow.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.PumpRun.OutputPin"
+                    }
+                  },
+                  "IsOutput": true,
+                  "+": "TArduinoAdditionalDigitalChannel"
+                },
+                {
+                  "DigitalInputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.AlarmOn.OutputPin"
+                    }
+                  },
+                  "IsOutput": true,
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMChannel"
+                },
+                {
+                  "+": "TArduinoBasicDigitalPWMSPI0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "+": "TArduinoAdditionalDigitalSPI0Channel"
+                },
+                {
+                  "OutputPin": {
+                    "SinkPins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.TankLevelPercent.InputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedAnalogDigitalChannel"
+                },
+                {
+                  "+": "TArduinoCombinedAnalogDigitalI2C0Channel"
+                },
+                {
+                  "+": "TArduinoCombinedAnalogDigitalI2C0Channel"
+                }
+              ]
+            },
+            "Modules": {
+              "*": [
+                {
+                  "+": "TArduinoEEPROMModule"
+                },
+                {
+                  "+": "TArduinoWatchdogTimerModule"
+                },
+                {
+                  "+": "TArduinoProcessor328Module"
+                },
+                {
+                  "+": "TArduino_AVR328_AnalogInput_Config"
+                }
+              ]
+            },
+            "Serial": {
+              "*": [
+                {
+                  "+": "TArduinoBreakHardwareSerial0"
+                }
+              ]
+            },
+            "I2CChannels": {
+              "*": [
+                {
+                  "InputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.TankDisplay.OutputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoI2C"
+                }
+              ]
+            },
+            "SPIChannels": {
+              "*": [
+                {
+                  "+": "TArduinoSPI"
+                }
+              ]
+            },
+            "BoardType": "Arduino UNO R3",
+            "+": "TArduinoBoard"
+          },
+          "X": 256,
+          "Height": 1088,
+          "Y": 256,
+          "Type": "Component"
+        },
+        {
+          "Name": "TankLevelPercent",
+          "Width": 128,
+          "Instance": {
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankAtOrBelow25.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.TankAtOrAbove80.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.TankBelow95.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.TankAtOrAbove95.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.LevelRowText.Elements._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.LevelRowText.Elements.AnalogElement1.InputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item14.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 14 ]\/AnalogIn[ 0 ].OutputPin"
+              }
+            },
+            "OutputRange": {
+              "Max": 100
+            },
+            "+": "TArduinoMapRange"
+          },
+          "X": 576,
+          "Height": 48,
+          "Y": 304,
+          "Type": "Component"
+        },
+        {
+          "Name": "AutoSwitch",
+          "Width": 96,
+          "Instance": {
+            "DebounceInterval": 40,
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item2.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 2 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.FillModeIndex.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.ModeRowText.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoButton"
+          },
+          "X": 576,
+          "Height": 48,
+          "Y": 544,
+          "Type": "Component"
+        },
+        {
+          "Name": "ManualButton",
+          "Width": 112,
+          "Instance": {
+            "DebounceInterval": 40,
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.ManualActiveLow.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.FillDemand.InputPins._Pin0",
+                  "Name": "__OpenWireRootUnit__.FillDemand.InputPins.Pin [0]"
+                }
+              ]
+            },
+            "+": "TArduinoButton"
+          },
+          "X": 768,
+          "Height": 48,
+          "Y": 688,
+          "Type": "Component"
+        },
+        {
+          "Name": "SourceEmptySwitch",
+          "Width": 144,
+          "Instance": {
+            "DebounceInterval": 40,
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.SourceEmptyActiveLow.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.SourceWaterOK.InputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.AlarmOn.InputPins._Pin0",
+                  "Name": "__OpenWireRootUnit__.AlarmOn.InputPins.Pin [0]"
+                }
+              ]
+            },
+            "+": "TArduinoButton"
+          },
+          "X": 768,
+          "Height": 48,
+          "Y": 960,
+          "Type": "Component"
+        },
+        {
+          "Name": "ManualActiveLow",
+          "Width": 128,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item3.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 3 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.ManualButton.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanInverter"
+          },
+          "X": 576,
+          "Height": 48,
+          "Y": 688,
+          "Type": "Component"
+        },
+        {
+          "Name": "SourceEmptyActiveLow",
+          "Width": 160,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.Arduino.Digital._Item4.OutputPin",
+                "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 4 ].OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.SourceEmptySwitch.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanInverter"
+          },
+          "X": 576,
+          "Height": 48,
+          "Y": 960,
+          "Type": "Component"
+        },
+        {
+          "Name": "TankAtOrBelow25",
+          "Width": 128,
+          "Instance": {
+            "Value": 25,
+            "CompareType": "ctSmallerOrEqual",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.AutoFillRequest.SetInputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.TankLevelPercent.OutputPin"
+              }
+            },
+            "+": "TArduinoCompareValue"
+          },
+          "X": 944,
+          "Height": 48,
+          "Y": 304,
+          "Type": "Component"
+        },
+        {
+          "Name": "TankAtOrAbove80",
+          "Width": 128,
+          "Instance": {
+            "Value": 80,
+            "CompareType": "ctBiggerOrEqual",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.AutoFillRequest.ResetInputPin"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.TankLevelPercent.OutputPin"
+              }
+            },
+            "+": "TArduinoCompareValue"
+          },
+          "X": 912,
+          "Height": 48,
+          "Y": 400,
+          "Type": "Component"
+        },
+        {
+          "Name": "AutoFillRequest",
+          "Width": 128,
+          "Instance": {
+            "+": "TArduinoSRFlipFlop",
+            "ResetInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankAtOrAbove80.OutputPin"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.FillDemand.InputPins._Pin1",
+                  "Name": "__OpenWireRootUnit__.FillDemand.InputPins.Pin [1]"
+                }
+              ]
+            },
+            "SetInputPin": {
+              "SourcePins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankAtOrBelow25.OutputPin"
+                }
+              ]
+            }
+          },
+          "X": 1136,
+          "Height": 64,
+          "Y": 336,
+          "Type": "Component"
+        },
+        {
+          "Name": "FillDemand",
+          "Width": 112,
+          "Instance": {
+            "InputPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.ManualButton.OutputPin"
+                  },
+                  "Type": "ptSink"
+                },
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.AutoFillRequest.OutputPin"
+                  },
+                  "Type": "ptSink"
+                }
+              ]
+            },
+            "SelectInputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.FillModeIndex.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PumpRun.InputPins._Pin0",
+                  "Name": "__OpenWireRootUnit__.PumpRun.InputPins.Pin [0]"
+                }
+              ]
+            },
+            "+": "TArduinoDigitalMux"
+          },
+          "X": 1360,
+          "Height": 96,
+          "Y": 432,
+          "Type": "Component"
+        },
+        {
+          "Name": "FillModeIndex",
+          "Width": 112,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.AutoSwitch.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.FillDemand.SelectInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoDigitalToUnsigned"
+          },
+          "X": 944,
+          "Height": 48,
+          "Y": 544,
+          "Type": "Component"
+        },
+        {
+          "Name": "SourceWaterOK",
+          "Width": 112,
+          "Instance": {
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.SourceEmptySwitch.OutputPin"
+              }
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PumpRun.InputPins._Pin1",
+                  "Name": "__OpenWireRootUnit__.PumpRun.InputPins.Pin [1]"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanInverter"
+          },
+          "X": 1152,
+          "Height": 48,
+          "Y": 720,
+          "Type": "Component"
+        },
+        {
+          "Name": "TankBelow95",
+          "Width": 112,
+          "Instance": {
+            "Value": 95,
+            "CompareType": "ctSmaller",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.PumpRun.InputPins._Pin2",
+                  "Name": "__OpenWireRootUnit__.PumpRun.InputPins.Pin [2]"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.TankLevelPercent.OutputPin"
+              }
+            },
+            "+": "TArduinoCompareValue"
+          },
+          "X": 1152,
+          "Height": 48,
+          "Y": 816,
+          "Type": "Component"
+        },
+        {
+          "Name": "PumpRun",
+          "Width": 112,
+          "Instance": {
+            "InputPins": {
+              "Pins": [
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.FillDemand.OutputPin"
+                  },
+                  "Type": "ptSink"
+                },
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.SourceWaterOK.OutputPin"
+                  },
+                  "Type": "ptSink"
+                },
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.TankBelow95.OutputPin"
+                  },
+                  "Type": "ptSink"
+                }
+              ],
+              "Form": "__OpenWireRootUnit__",
+              "Count": 3
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Arduino.Digital._Item8.DigitalInputPin",
+                  "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 8 ].DigitalInputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.PumpRowText.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanAnd"
+          },
+          "X": 1584,
+          "Height": 96,
+          "Y": 784,
+          "Type": "Component"
+        },
+        {
+          "Name": "AlarmOn",
+          "Width": 112,
+          "Instance": {
+            "InputPins": {
+              "Form": "__OpenWireRootUnit__",
+              "Pins": [
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.SourceEmptySwitch.OutputPin"
+                  },
+                  "Type": "ptSink"
+                },
+                {
+                  "SourcePin": {
+                    "ID": "__OpenWireRootUnit__.TankAtOrAbove95.OutputPin"
+                  },
+                  "Type": "ptSink"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Arduino.Digital._Item9.DigitalInputPin",
+                  "Name": "__OpenWireRootUnit__.Arduino.Digital.Digital[ 9 ].DigitalInputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.AlarmRowText.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoBooleanOr"
+          },
+          "X": 1584,
+          "Height": 80,
+          "Y": 1088,
+          "Type": "Component"
+        },
+        {
+          "Name": "TankAtOrAbove95",
+          "Width": 128,
+          "Instance": {
+            "Value": 95,
+            "CompareType": "ctBiggerOrEqual",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.AlarmOn.InputPins._Pin1",
+                  "Name": "__OpenWireRootUnit__.AlarmOn.InputPins.Pin [1]"
+                }
+              ]
+            },
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.TankLevelPercent.OutputPin"
+              }
+            },
+            "+": "TArduinoCompareValue"
+          },
+          "X": 1152,
+          "Height": 48,
+          "Y": 944,
+          "Type": "Component"
+        },
+        {
+          "Name": "TankDisplay",
+          "Width": 128,
+          "Instance": {
+            "Columns": 20,
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.Arduino.I2CChannels._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.Arduino.I2CChannels.I2C.InputPin"
+                }
+              ]
+            },
+            "Elements": {
+              "*": [
+                {
+                  "Name": "TextField1",
+                  "Width": 20,
+                  "ClockInputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.DisplayRefresh.OutputPin"
+                      }
+                    ]
+                  },
+                  "InputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.LevelRowText.OutputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoLiquidCrystalElementTextField"
+                },
+                {
+                  "Row": 1,
+                  "Name": "TextField2",
+                  "Width": 20,
+                  "ClockInputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.DisplayRefresh.OutputPin"
+                      }
+                    ]
+                  },
+                  "InputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.ModeRowText.OutputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoLiquidCrystalElementTextField"
+                },
+                {
+                  "Row": 2,
+                  "Name": "TextField3",
+                  "Width": 20,
+                  "ClockInputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.DisplayRefresh.OutputPin"
+                      }
+                    ]
+                  },
+                  "InputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.PumpRowText.OutputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoLiquidCrystalElementTextField"
+                },
+                {
+                  "Row": 3,
+                  "Name": "TextField4",
+                  "Width": 20,
+                  "ClockInputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.DisplayRefresh.OutputPin"
+                      }
+                    ]
+                  },
+                  "InputPin": {
+                    "SourcePins": [
+                      {
+                        "ID": "__OpenWireRootUnit__.AlarmRowText.OutputPin"
+                      }
+                    ]
+                  },
+                  "+": "TArduinoLiquidCrystalElementTextField"
+                }
+              ]
+            },
+            "Rows": 4,
+            "+": "TArduinoLiquidCrystalDisplayI2C"
+          },
+          "X": 2144,
+          "Height": 336,
+          "Y": 688,
+          "Type": "Component"
+        },
+        {
+          "Name": "LevelRowText",
+          "Width": 160,
+          "Instance": {
+            "Text": "Level: %0%%",
+            "Elements": {
+              "*": [
+                {
+                  "Name": "AnalogElement1",
+                  "Precision": 1,
+                  "InputPin": {
+                    "SourcePin": {
+                      "ID": "__OpenWireRootUnit__.TankLevelPercent.OutputPin"
+                    }
+                  },
+                  "+": "TArduinoFormattedTextElementAnalog"
+                }
+              ]
+            },
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item0.InputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField1.InputPin"
+                }
+              ]
+            },
+            "+": "TArduinoFormattedText"
+          },
+          "X": 1808,
+          "Height": 112,
+          "Y": 496,
+          "Type": "Component"
+        },
+        {
+          "Name": "ModeRowText",
+          "Width": 112,
+          "Instance": {
+            "TrueValue": "Mode: AUTO",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item1.InputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField2.InputPin"
+                }
+              ]
+            },
+            "FalseValue": "Mode: MANUAL",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.AutoSwitch.OutputPin"
+              }
+            },
+            "+": "TArduinoDigitalToText"
+          },
+          "X": 1856,
+          "Height": 48,
+          "Y": 688,
+          "Type": "Component"
+        },
+        {
+          "Name": "PumpRowText",
+          "Width": 112,
+          "Instance": {
+            "TrueValue": "Pump: ON",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item2.InputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField3.InputPin"
+                }
+              ]
+            },
+            "FalseValue": "Pump: OFF",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.PumpRun.OutputPin"
+              }
+            },
+            "+": "TArduinoDigitalToText"
+          },
+          "X": 1856,
+          "Height": 48,
+          "Y": 848,
+          "Type": "Component"
+        },
+        {
+          "Name": "AlarmRowText",
+          "Width": 112,
+          "Instance": {
+            "TrueValue": "Alarm: ALARM",
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item3.InputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField4.InputPin"
+                }
+              ]
+            },
+            "FalseValue": "Alarm: OK",
+            "InputPin": {
+              "SourcePin": {
+                "ID": "__OpenWireRootUnit__.AlarmOn.OutputPin"
+              }
+            },
+            "+": "TArduinoDigitalToText"
+          },
+          "X": 1856,
+          "Height": 48,
+          "Y": 1008,
+          "Type": "Component"
+        },
+        {
+          "Name": "DisplayRefresh",
+          "Width": 112,
+          "Instance": {
+            "Frequency": 2,
+            "OutputPin": {
+              "SinkPins": [
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item0.ClockInputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField1.ClockInputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item1.ClockInputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField2.ClockInputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item2.ClockInputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField3.ClockInputPin"
+                },
+                {
+                  "ID": "__OpenWireRootUnit__.TankDisplay.Elements._Item3.ClockInputPin",
+                  "Name": "__OpenWireRootUnit__.TankDisplay.Elements.TextField4.ClockInputPin"
+                }
+              ]
+            },
+            "+": "TArduinoClockGenerator"
+          },
+          "X": 1856,
+          "Height": 48,
+          "Y": 1168,
+          "Type": "Component"
+        }
+      ],
+      "Type": "Diagram"
+    }
+  ],
+  "Version": "2",
+  "Content": "OpenWire Diagram",
+  "Product": "Visuino Pro - Visual Arduino Programming"
+}
