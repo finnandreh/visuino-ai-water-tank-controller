@@ -118,3 +118,10 @@ showed **Routing completed**; static checks cover **12 nets and 67 wire segments
 The potentiometer simulates tank level; LEDs indicate pump/alarm commands.
 The SVG is exported directly by Fritzing 1.0.3b and the PNG renders that SVG.
 Original drawing files remain available. No PCB design or physical test is claimed.
+
+
+## Video and step-by-step guide
+
+- [Watch the build video](https://www.youtube.com/watch?v=VGi7qFAkXQc)
+- [Project page and downloads](https://finnandre.no/ressurser/visuino-ai-vannkontroller/)
+- [Step-by-step Instructables guide](https://www.instructables.com/Build-an-AI-Assisted-Water-Tank-Controller-in-Visu/) — submitted; platform review pending.
